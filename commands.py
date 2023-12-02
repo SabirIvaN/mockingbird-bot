@@ -1,10 +1,5 @@
-from aiogram import Bot, Dispatcher, types
-from aiogram.utils import executor
-
-TELEGRAM_BOT_TOKEN = "6439134880:AAFmRHrKP9yHYxMi2OEqrolJTdUnmGfJOBA"
-
-bot = Bot(token = TELEGRAM_BOT_TOKEN)
-dp = Dispatcher(bot)
+from aiogram import types
+from config.telegram import dp
 
 @dp.message_handler(commands = ["start"])
 async def cmd_start(message: types.Message):
