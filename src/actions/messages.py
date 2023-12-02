@@ -1,5 +1,5 @@
 from aiogram import Bot, Dispatcher, types
-from telegram import TELEGRAM_BOT_TOKEN
+from config.telegram import TELEGRAM_BOT_TOKEN
 
 bot = Bot(token = TELEGRAM_BOT_TOKEN)
 dp = Dispatcher(bot)
