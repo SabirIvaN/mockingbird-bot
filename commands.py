@@ -15,6 +15,4 @@ async def handle_text(message: types.Message):
     text = message.text
     
     await message.reply(text)
-
-def main():
-    executor.start_polling(dp, skip_updates=True)
+    

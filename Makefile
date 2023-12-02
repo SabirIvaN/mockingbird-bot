@@ -3,3 +3,5 @@ run:
 
 install:
 	pip install aiogram
+	pip install python-dotenv
+	
