@@ -1,6 +1,5 @@
 from aiogram import Bot, Dispatcher, types
-
-TELEGRAM_BOT_TOKEN="6439134880:AAFmRHrKP9yHYxMi2OEqrolJTdUnmGfJOBA"
+from config.telegram import TELEGRAM_BOT_TOKEN
 
 bot = Bot(token = TELEGRAM_BOT_TOKEN)
 dp = Dispatcher(bot)
@@ -14,4 +13,3 @@ async def handle_text(message: types.Message):
     text = message.text
     
     await message.reply(text)
-    
