@@ -1,2 +1,2 @@
-# # Telegram bot token
+# Telegram Bot Token
 TELEGRAM_BOT_TOKEN = 
