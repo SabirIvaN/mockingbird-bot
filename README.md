@@ -1,6 +1,6 @@
 # Mockingbird Bot
 
-This Telegram bot is designed to respond to messages in their own text.
+This Telegram bot is designed to respond to messages in their own text. It was created to teach students of the online school of Kazakhstan the Python course at the ITDoma online school.
 
 ## Launch Requirements
 
