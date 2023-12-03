@@ -1,3 +1,4 @@
+.DS_Store
 src/actions/__pycache__
 src/config/__pycache__
 src/config/telegram.py
